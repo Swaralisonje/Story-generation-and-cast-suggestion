@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎬 Generated Story | PlotBot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        /* ------------------ General & Body Styles ------------------ */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #550000; /* Dark red background */
+            color: #ffffff;
+        }
+
+        /* ------------------ Navbar Styles ------------------ */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 2rem;
+            background-color: #fff8f9;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #9B2226;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style-type: none;
+            gap: 1.5rem; /* Space between links */
+        }
+
+        .nav-links a {
+            color: #9B2226;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #c84347;
+        }
+
+        /* ------------------ Main Content & Containers ------------------ */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: justify;
+        }
+
+        h2, h3 {
+            color: #ffffff;
+            font-weight: 1000;
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Unified style for all content boxes */
+        .content-box {
+            background: #fff8f9;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-top: 1.5rem;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        /* ------------------ Text Inside Containers ------------------ */
+        .content-box p,
+        .content-box li {
+            color: #550000;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .content-box pre {
+            color: #333;
+            white-space: pre-wrap;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        #castResults h3 {
+            color: #9B2226; /* Red heading for character names */
+            text-align: left;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        #castResults p, #castResults li {
+            text-align: left;
+        }
+
+        #castResults ul {
+            padding-left: 20px; /* Indent list items */
+        }
+
+        /* ------------------ Buttons ------------------ */
+        .main-button {
+            background-color: #9B2226;
+            color: #ffffff;
+            border: none;
+            border-radius: 12px;
+            padding: 12px 28px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .main-button:hover {
+            background-color: #801c1f;
+            transform: translateY(-2px);
+        }
+
+        #save-private {
+            background-color: #9B2226;
+        }
+        #save-private:hover {
+            background-color: #941b0c;
+        }
+
+        /* ------------------ Other Elements ------------------ */
+        hr {
+            width: 70%;
+            border: 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            margin: 40px auto;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+        .mt-5 { margin-top: 3rem; }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <a class="navbar-brand" href="#">🎥 PlotBot</a>
+    <ul class="nav-links">
+        <li><a href="{{ url_for('index') }}">Story Generation</a></li>
+        <li><a href="{{ url_for('history') }}">My Stories</a></li>
+        <li><a href="{{ url_for('feed') }}">Feed</a></li>
+        <li><a href="{{ url_for('aboutus') }}">About Us</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2 class="text-center" style="font-weight:800 !important">🎬 Generated Story</h2>
+
+    <div id="full-story-text" class="content-box">
+        {% for para in story_paragraphs %}
+            <p>{{ para }}</p>
+        {% endfor %}
+    </div>
+
+    {% if songs_and_abstracts %}
+        <h3>🎵 Song Suggestions for this Story</h3>
+        <div class="content-box">
+            <pre>{{ songs_and_abstracts }}</pre>
+        </div>
+    {% endif %}
+
+    <div class="text-center mt-5">
+        <form id="castForm">
+            <input type="hidden" name="story" value="{{ full_story }}">
+            <button type="submit" class="main-button">🎭 Suggest Cast</button>
+        </form>
+    </div>
+
+    <div id="castResults" class="content-box" style="display: none;"></div>
+
+    <hr>
+
+    <div class="text-center">
+        <h3>Save Your Story</h3>
+        <button id="save-public" class="main-button">Store Publicly</button>
+        <button id="save-private" class="main-button">Store Privately</button>
+        <div id="saveMessage"></div>
+    </div>
+</div>
+
+
+<script>
+    // Hide cast results initially
+    $('#castResults').hide();
+
+    // Cast Suggestion
+    $("#castForm").on("submit", function(e) {
+        e.preventDefault();
+        const resultsDiv = $("#castResults");
+        resultsDiv.show().html("<p>🔍 Generating cast suggestions...</p>");
+        $.ajax({
+            url: "/get_cast",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                let html = "";
+                if (response.length === 0) {
+                    html = "<p>No characters found in the story.</p>";
+                } else {
+                    response.forEach(char => {
+                        html += `<h3>Character: ${char.character} (${char.predicted_gender})</h3>`;
+                        html += `<p><b>Genre:</b> ${char.genre_from_story}</p><ul>`;
+                        char.suggestions.forEach(s => {
+                            html += `<li>${s.actor_name} - ${s.actor_genre} (⭐ ${s.actor_rating}) - Score: ${s.total_score}</li>`;
+                        });
+                        html += `</ul><hr>`;
+                    });
+                }
+                resultsDiv.html(html);
+            },
+            error: function() {
+                resultsDiv.html("<p>❌ Error generating cast suggestions.</p>");
+            }
+        });
+    });
+
+    // Save Story
+    function saveStory(visibility) {
+        const story = $("#full-story-text").text().trim();
+        const title = "My Story";
+        if (!story) {
+            alert("No story to save!");
+            return;
+        }
+        $.ajax({
+            url: "/save_story",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({ story, title, visibility }),
+            success: function(response) {
+                if (response.success) {
+                    window.location.href = (visibility === "public") ? "/feed" : "/history";
+                } else if (response.redirect) {
+                    window.location.href = response.redirect;
+                } else {
+                    $("#saveMessage").text("⚠️ Failed to save: " + (response.error || "Unknown"));
+                }
+            },
+            error: function() {
+                $("#saveMessage").text("❌ Server connection error!");
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        $("#save-public").on("click", () => saveStory("public"));
+        $("#save-private").on("click", () => saveStory("private"));
+    });
+</script>
+</body>
+</html>

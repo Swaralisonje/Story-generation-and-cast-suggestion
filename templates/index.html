@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎬 Story Generator | PlotBot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* ------------------ General & Body Styles ------------------ */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #550000;
+            color: #ffffff; /* Default text color to white */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* ------------------ Navbar Styles ------------------ */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 2rem;
+            background-color: #fff8f9;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #9B2226;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style-type: none;
+            gap: 1.5rem; /* Space between links */
+        }
+
+        .nav-links a {
+            color: #9B2226;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #c84347;
+        }
+
+        /* ------------------ Main Content & Form Container ------------------ */
+        .main-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0rem 2rem 2rem 2rem; /* Reduced top padding */
+        }
+
+        .main-content h1 {
+            font-size: 2.9rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .main-content p {
+            font-size: 1.0rem;
+            color: #e0e0e0; /* A slightly off-white for the subtitle */
+            margin-bottom: 2rem;
+        }
+
+        .generator-form {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 2.0rem 2.5rem;
+            width: 100%;
+            max-width: 800px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-group {
+            margin-bottom: 1.0rem;
+            text-align: left; /* Align labels to the left */
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #a04a7a; /* Muted pink/purple color from image */
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid #ced4da; /* Light grey border */
+            border-radius: 8px;
+            font-size: 1rem;
+            text-align: left; /* Text inside input starts from left */
+        }
+
+        .form-input::placeholder {
+            color: #adb5bd;
+            text-align: left;
+        }
+
+        .submit-button {
+            background-color: #9B2226;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            padding: 0.75rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-button:hover {
+            background-color: #801c1f; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <a class="navbar-brand" href="#">🎥 PlotBot</a>
+    <ul class="nav-links">
+        <li><a href="{{ url_for('index') }}">Story Generation</a></li>
+        <li><a href="{{ url_for('history') }}">My Stories</a></li>
+        <li><a href="{{ url_for('feed') }}">Feed</a></li>
+        <li><a href="{{ url_for('aboutus') }}">About Us</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+    </ul>
+</nav>
+
+<div class="main-content">
+    <h1>🎬 PLOTBOT : "Where Stories Begin and Stars Align"</h1>
+    <p>Generate a unique story with your own keywords and genre.</p>
+
+    <form class="generator-form" method="POST">
+        <div class="form-group">
+            <label for="keywords">🎯 Enter Keywords</label>
+            <input type="text" id="keywords" name="keywords" class="form-input" placeholder="love, revenge, dance..." required>
+        </div>
+        <div class="form-group">
+            <label for="genre">🎭 Choose Genre</label>
+            <input type="text" id="genre" name="genre" class="form-input" placeholder="Romance, Action, Comedy..." required>
+        </div>
+        <button type="submit" class="submit-button">✨ Generate Story</button>
+    </form>
+</div>
+
+</body>
+</html>

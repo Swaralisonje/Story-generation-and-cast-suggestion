@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Story</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* ------------------ General & Body Styles ------------------ */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #550000;
+            color: #ffffff;
+            font-family: "Poppins", sans-serif;
+        }
+
+        /* ------------------ Navbar Styles ------------------ */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 2rem;
+            background-color: #fff8f9;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #9B2226;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style-type: none;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: #9B2226;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .nav-links a:hover {
+            color: #c84347;
+        }
+
+        /* ------------------ Main Content ------------------ */
+        .container {
+            max-width: 1900px;
+            margin: 2rem auto; /* Adds space from the navbar and centers it */
+            padding: 2rem;
+            margin: 0 auto 2rem;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #ffffff;
+            font-weight: 900 !important; /* Corrected value to the maximum valid weight */
+            margin-bottom: 1.5rem;
+        }
+
+        /* ------------------ Story Box Styles ------------------ */
+        .story-box {
+            background: #fff8f9; /* Light pink background for the box */
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            width : 1100px;
+            margin: 0 auto 2rem;
+        }
+
+        .story-box p {
+            color: #550000; /* Dark text for readability */
+            white-space: pre-line;
+            text-align: justify;
+            line-height: 1.7;
+        }
+
+        .story-box .timestamp {
+            font-size: 0.9em;
+            color: #666; /* Muted grey for the timestamp */
+            margin-top: 1rem;
+            text-align: left;
+        }
+
+        /* Specific style for remix boxes to differentiate them */
+        .remix-box {
+            background: #fdf2f4; /* A slightly different pink */
+            border-left: 5px solid #9B2226;
+        }
+
+        /* ------------------ Back Link ------------------ */
+        .back-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <a class="navbar-brand" href="#">🎥 PlotBot</a>
+    <ul class="nav-links">
+        <li><a href="{{ url_for('index') }}">Story Generation</a></li>
+        <li><a href="{{ url_for('history') }}">My Stories</a></li>
+        <li><a href="{{ url_for('feed') }}">Feed</a></li>
+        <li><a href="{{ url_for('aboutus') }}">About Us</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h1 style="font-weight: 900 !important;">Story</h1>
+    <div class="story-box">
+        <p>{{ story['story'] | safe }}</p>
+        <p class="timestamp">Published on: {{ story['timestamp'] }}</p>
+    </div>
+
+    {% if remixes %}
+        <h2>Remixed Stories</h2>
+        {% for remix in remixes %}
+        <div class="story-box remix-box">
+            <p>{{ remix['story'] | safe }}</p>
+            <p class="timestamp">Generated on: {{ remix['timestamp'] }}</p>
+        </div>
+        {% endfor %}
+    {% endif %}
+
+    <a href="/feed" class="back-link">← Back to Feed</a>
+</div>
+
+</body>
+</html>

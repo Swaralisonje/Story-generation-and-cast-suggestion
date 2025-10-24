@@ -1,0 +1,269 @@
+/* ------------------ General Page Styling ------------------ */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Navbar */
+
+/* ------------------ Title Section ------------------ */
+h1 {
+    margin-top: 70px;
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #ffb400;
+    text-shadow: 0 0 20px rgba(255, 180, 0, 0.5);
+}
+
+p.subtitle {
+    color: #b0b0b0;
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+/* ------------------ Form Container ------------------ */
+form {
+    background: #1e1e1e;
+    width: 55%;
+    margin: 0 auto;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 180, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform: translateY(-3px);
+}
+
+/* Input Fields */
+input[type="text"] {
+    width: 85%;
+    padding: 14px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 10px;
+    background: #2a2a2a;
+    color: #f0f0f0;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: inset 0 0 5px rgba(255, 180, 0, 0.1);
+    transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+    color: #888;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    background: #333;
+    box-shadow: 0 0 10px rgba(255, 180, 0, 0.4);
+}
+
+/* Labels / Icons */
+label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #f5f5f5;
+}
+
+/* ------------------ Button ------------------ */
+button {
+    background: linear-gradient(90deg, #ffb400, #ff9900);
+    color: #121212;
+    border: none;
+    padding: 14px 40px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    margin-top: 25px;
+    box-shadow: 0 0 12px rgba(255, 180, 0, 0.3);
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #ffc84d, #ffb400);
+    box-shadow: 0 0 18px rgba(255, 180, 0, 0.6);
+}
+
+/* ------------------ Story / Cast Display ------------------ */
+#story, #castResults {
+    width: 70%;
+    margin: 40px auto;
+    background: #1a1a1a;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(255, 180, 0, 0.1);
+    text-align: left;
+    line-height: 1.6;
+}
+
+#story h3, #castResults h3 {
+    color: #ffb400;
+    margin-bottom: 10px;
+}
+
+#castResults ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+#castResults li {
+    background: #2a2a2a;
+    margin: 6px 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+#castResults li:hover {
+    background: #3a3a3a;
+}
+
+/* ------------------ Footer ------------------ */
+footer {
+    margin-top: 40px;
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* ------------------ Responsive Design ------------------ */
+@media (max-width: 768px) {
+    form, #story, #castResults {
+        width: 90%;
+        padding: 25px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+    color: white;
+    }
+
+navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+content {
+    padding: 40px;
+}
+
+/* ---------------- Save Story Section ---------------- */
+h3 {
+  color: #ffcc00;
+  font-size: 1.8em;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-shadow: 1px 1px 5px rgba(255, 204, 0, 0.3);
+}
+
+#savePublic,
+#savePrivate {
+  background: linear-gradient(135deg, #ffb347, #ffcc33);
+  border: none;
+  color: #222;
+  padding: 10px 18px;
+  margin: 8px;
+  border-radius: 12px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 12px rgba(255, 200, 0, 0.3);
+}
+
+#savePrivate {
+  background: linear-gradient(135deg, #ff9966, #ff5e62);
+}
+
+#savePublic:hover,
+#savePrivate:hover {
+  transform: scale(1.07);
+  box-shadow: 0px 6px 20px rgba(255, 200, 0, 0.5);
+}
+
+#saveMessage {
+  color: #fff;
+  font-size: 1em;
+  margin-top: 15px;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+}
+
+/* Optional: add divider style */
+hr {
+  width: 70%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #fff8f9;
+}
+
+/* Sets the color for the brand name and navigation links */
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #9B2226;
+}
+
+.navbar .nav-link.text-danger {
+    color: #9B2226 !important;
+}
+
+/* Optional: Changes link color on hover for better user experience */
+.navbar .nav-link:hover {
+    color: #c84347; /* A lighter shade for the hover effect */
+}

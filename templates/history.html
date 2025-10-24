@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Story History</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        /* ------------------ General & Body Styles ------------------ */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #550000;
+            color: #ffffff;
+            font-family: "Poppins", sans-serif;
+        }
+
+        /* ------------------ Navbar Styles ------------------ */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 2rem;
+            background-color: #fff8f9;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #9B2226;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style-type: none;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: #9B2226;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .nav-links a:hover {
+            color: #c84347;
+        }
+
+        /* ------------------ Main Content ------------------ */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            font-weight: 800;
+            margin-bottom: 2rem;
+        }
+
+        /* ------------------ Story Card Styles ------------------ */
+        .story-card {
+            background: #fff8f9;
+            border-radius: 16px;
+            padding: 1.5rem 2rem;
+            width: 1300px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            margin: 0 auto 1.5rem auto; /* This centers the card and keeps the bottom margin */
+        }
+
+        .timestamp {
+            font-size: 0.9em;
+            color: #666; /* Darker grey for timestamp */
+        }
+
+        .story-preview {
+            color: #550000;
+            white-space: pre-line;
+            text-align: justify;
+            margin: 0.5rem 0 1rem 0;
+        }
+
+        .read-more-link {
+            color: #9B2226; /* Red accent for the link */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* ------------------ Buttons & Actions ------------------ */
+        .actions {
+            margin-top: 1rem;
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            background-color: #ae2012; /* Red accent for buttons */
+            border: none;
+            color: #ffffff; /* White text */
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #801c1f;
+        }
+
+        .delete-btn {
+            background-color: #ae2012; /* A different red for delete */
+        }
+
+        .delete-btn:hover {
+            background-color: #801c1f;
+        }
+
+        /* ------------------ Remix Section ------------------ */
+        .remix-section {
+            display: none;
+            margin-top: 1rem;
+            background: #f1f1f1; /* Light grey for remix area */
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+
+        .remix-section textarea {
+            width: 100%;
+            height: 70px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            resize: vertical;
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- 🔹 Navbar -->
+<nav class="navbar">
+    <a class="navbar-brand" href="#">🎥 PlotBot</a>
+    <ul class="nav-links">
+        <li><a href="{{ url_for('index') }}">Story Generation</a></li>
+        <li><a href="{{ url_for('history') }}">My Stories</a></li>
+        <li><a href="{{ url_for('feed') }}">Feed</a></li>
+        <li><a href="{{ url_for('aboutus') }}">About Us</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+    </ul>
+</nav>
+
+<br>
+<h1>📝 My Stories</h1>
+<br>
+
+<!-- 🔹 Story Cards -->
+{% for story in stories %}
+<div class="story-card" id="story-{{ story['_id'] }}">
+<!--    <h3>Story ID: {{ story['_id'] }}</h3>-->
+    <p class="timestamp">Generated on: {{ story['timestamp'] }}</p>
+
+    {% set preview = story['story'].split('\n')[:3] | join('\n') %}
+    <p class="story-preview">{{ preview | safe }}</p>
+    <p><strong>Visibility:</strong> {{ story['visibility'] }}</p>
+
+    <a href="/view_story/{{ story['_id'] }}" class="read-more-link">Read more...</a>
+
+<!--    <div class="actions">-->
+<!--        <form action="/delete_story" method="POST" style="display:inline;">-->
+<!--            <input type="hidden" name="id" value="{{ story['_id'] }}">-->
+<!--            <button type="submit" class="delete-btn">Delete</button>-->
+<!--        </form>-->
+
+<!--        <button class="remix-btn" data-id="{{ story['_id'] }}" data-story="{{ story['story'] }}">Remix Story</button>-->
+<!--    </div>-->
+
+<!--    <div class="remix-area" id="remix-area-{{ story['_id'] }}">-->
+<!--        <textarea placeholder="Enter your remix prompt here..."></textarea>-->
+<!--        <button class="generate-remix">Generate Remix</button>-->
+<!--        <div class="remixed-result"></div>-->
+<!--    </div>-->
+</div>
+{% endfor %}
+
+<script>
+$(document).ready(function() {
+    // Show remix input area when "Remix Story" button is clicked
+    $(".remix-btn").on("click", function() {
+        const storyId = $(this).data("id");
+        $(`#remix-area-${storyId}`).slideToggle();
+    });
+
+    // Generate remix when "Generate Remix" is clicked
+    $(".generate-remix").on("click", async function() {
+        const parentCard = $(this).closest(".story-card");
+        const storyId = parentCard.attr("id").split("-")[1];
+        const oldStory = parentCard.find(".remix-btn").data("story");
+        const prompt = parentCard.find("textarea").val();
+        const resultDiv = parentCard.find(".remixed-result");
+
+        if (!prompt.trim()) {
+            alert("Please enter a remix idea!");
+            return;
+        }
+
+        try {
+            const response = await fetch("/remix_story", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ story: oldStory, prompt: prompt })
+            });
+
+            const data = await response.json();
+            if (data.remixed_story) {
+                resultDiv.text(data.remixed_story);
+                resultDiv.slideDown();
+            } else {
+                alert("Error: " + data.error);
+            }
+        } catch (error) {
+            console.error(error);
+            alert("Something went wrong while remixing the story.");
+        }
+    });
+});
+</script>
+
+</body>
+</html>

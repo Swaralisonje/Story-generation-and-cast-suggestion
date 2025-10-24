@@ -1,0 +1,400 @@
+Actor Name,Type,Gender,Age,Famous Movies,Famous Genre,Overall Rating
+Shah Rukh Khan,Lead,Male,59,"Dilwale Dulhania Le Jayenge, My Name Is Khan",Romance,9.3
+Amitabh Bachchan,Lead,Male,82,"Sholay, Deewaar, Piku",Drama,9.5
+Salman Khan,Lead,Male,59,"Bajrangi Bhaijaan, Dabangg, Sultan",Action,8.8
+Aamir Khan,Lead,Male,59,"Lagaan, 3 Idiots, Dangal",Drama,9.4
+Deepika Padukone,Lead,Female,39,"Padmaavat, Piku, Chennai Express",Drama,9.2
+Priyanka Chopra,Lead,Female,43,"Barfi!, Mary Kom, Fashion",Drama,9.1
+Akshay Kumar,Lead,Male,57,"Hera Pheri, Toilet: Ek Prem Katha, Pad Man",Comedy,8.9
+Hrithik Roshan,Lead,Male,51,"Kaho Naa... Pyaar Hai, Super 30, War",Action,9
+Ranbir Kapoor,Lead,Male,42,"Barfi!, Rockstar, Sanju",Romance,9.1
+Alia Bhatt,Lead,Female,32,"Gully Boy, Raazi, Highway",Drama,9.2
+Ranveer Singh,Lead,Male,39,"Gully Boy, Padmaavat, Bajirao Mastani",Drama,9
+Kareena Kapoor Khan,Lead,Female,44,"Jab We Met, 3 Idiots, Omkara",Romance,8.8
+Saif Ali Khan,Lead,Male,54,"Omkara, Dil Chahta Hai, Tanhaji",Thriller,8.7
+Ajay Devgn,Lead,Male,55,"Tanhaji, Drishyam, Singham",Action,8.9
+Kajol,Lead,Female,50,"Dilwale Dulhania Le Jayenge, My Name Is Khan",Romance,8.9
+Irrfan Khan,Lead,Male,53,"The Lunchbox, Paan Singh Tomar, Hindi Medium",Drama,9.6
+Nawazuddin Siddiqui,Lead,Male,50,"Gangs of Wasseypur, Sacred Games, Manto",Crime,9.4
+Vidya Balan,Lead,Female,46,"The Dirty Picture, Kahaani, Tumhari Sulu",Drama,9
+Kangana Ranaut,Lead,Female,38,"Queen, Tanu Weds Manu, Manikarnika",Drama,8.9
+Shahid Kapoor,Lead,Male,44,"Kabir Singh, Haider, Jab We Met",Romance,8.8
+Anushka Sharma,Lead,Female,37,"PK, Sultan, Rab Ne Bana Di Jodi",Romance,8.7
+Varun Dhawan,Lead,Male,38,"Badlapur, Badrinath Ki Dulhania, October",Comedy,8.5
+Sidharth Malhotra,Lead,Male,40,"Shershaah, Kapoor & Sons, Ek Villain",Action,8.6
+Kiara Advani,Lead,Female,32,"Shershaah, Kabir Singh, Good Newwz",Romance,8.7
+Taapsee Pannu,Lead,Female,37,"Pink, Thappad, Badla",Thriller,9
+Ayushmann Khurrana,Lead,Male,40,"Andhadhun, Badhaai Ho, Article 15",Comedy,9.1
+Rajkummar Rao,Lead,Male,40,"Stree, Newton, Bareilly Ki Barfi",Comedy,9.2
+Vicky Kaushal,Lead,Male,37,"Uri: The Surgical Strike, Masaan, Sardar Udham",Action,9.1
+Sanjay Dutt,Lead,Male,65,"Munna Bhai M.B.B.S., Vaastav, Khalnayak",Action,8.6
+Madhuri Dixit,Lead,Female,58,"Hum Aapke Hain Koun..!, Devdas, Dil To Pagal Hai",Romance,9
+Anil Kapoor,Lead,Male,68,"Mr. India, Nayak, Slumdog Millionaire",Drama,8.8
+Sridevi,Lead,Female,54,"English Vinglish, Mom, Mr. India",Drama,9.3
+Juhi Chawla,Lead,Female,57,"Darr, Qayamat Se Qayamat Tak, Ishq",Romance,8.7
+Govinda,Lead,Male,61,"Hero No. 1, Coolie No. 1, Haseena Maan Jaayegi",Comedy,8.5
+Rani Mukerji,Lead,Female,47,"Black, Mardaani, Hichki",Drama,8.9
+Preity Zinta,Lead,Female,50,"Kal Ho Naa Ho, Veer-Zaara, Dil Se..",Romance,8.6
+John Abraham,Lead,Male,52,"Dhoom, Madras Cafe, Parmanu",Action,8.4
+Bipasha Basu,Lead,Female,46,"Raaz, Jism, Race",Thriller,8.2
+Katrina Kaif,Lead,Female,42,"Zindagi Na Milegi Dobara, Tiger Zinda Hai, Ek Tha Tiger",Action,8.5
+Kriti Sanon,Lead,Female,34,"Mimi, Bareilly Ki Barfi, Luka Chuppi",Comedy,8.6
+Pankaj Tripathi,Supporting,Male,48,"Mirzapur, Newton, Ludo",Drama,9.5
+Manoj Bajpayee,Lead,Male,55,"The Family Man, Gangs of Wasseypur, Satya",Crime,9.4
+Farhan Akhtar,Lead,Male,51,"Bhaag Milkha Bhaag, Zindagi Na Milegi Dobara",Biopic,8.9
+Abhishek Bachchan,Lead,Male,49,"Guru, Dhoom, Bunty Aur Babli",Action,8.1
+Aishwarya Rai Bachchan,Lead,Female,51,"Devdas, Hum Dil De Chuke Sanam, Jodhaa Akbar",Romance,8.8
+Sonam Kapoor,Lead,Female,39,"Neerja, Raanjhanaa, Aisha",Drama,8.3
+Arshad Warsi,Supporting,Male,57,"Munna Bhai series, Golmaal series, Ishqiya",Comedy,8.7
+Paresh Rawal,Supporting,Male,69,"Hera Pheri, OMG – Oh My God!, Sanju",Comedy,9
+Anupam Kher,Supporting,Male,70,"Saaransh, A Wednesday!, The Kashmir Files",Drama,8.9
+Naseeruddin Shah,Lead,Male,74,"A Wednesday!, Ishqiya, Masoom",Drama,9.2
+Om Puri,Lead,Male,66,"Ardh Satya, Jaane Bhi Do Yaaro, East Is East",Drama,9.3
+Shabana Azmi,Lead,Female,74,"Arth, Masoom, Fire",Drama,9.1
+Dharmendra,Lead,Male,89,"Sholay, Chupke Chupke, Yaadon Ki Baaraat",Action,8.8
+Hema Malini,Lead,Female,76,"Sholay, Seeta Aur Geeta, Baghban",Drama,8.7
+Rekha,Lead,Female,70,"Silsila, Umrao Jaan, Khoobsurat",Romance,9
+Rishi Kapoor,Lead,Male,67,"Bobby, Amar Akbar Anthony, Kapoor & Sons",Romance,8.8
+Neetu Singh,Lead,Female,66,"Khel Khel Mein, Deewaar, Yaarana",Romance,8.5
+Jaya Bachchan,Supporting,Female,77,"Guddi, Sholay, Kabhi Khushi Kabhie Gham...",Drama,8.6
+Dilip Kumar,Lead,Male,98,"Mughal-e-Azam, Devdas, Naya Daur",Tragedy,9.7
+Raj Kapoor,Lead,Male,58,"Mera Naam Joker, Awara, Shree 420",Drama,9.5
+Dev Anand,Lead,Male,88,"Guide, Jewel Thief, Johny Mera Naam",Romance,9.2
+Sunil Dutt,Lead,Male,75,"Mother India, Padosan, Munna Bhai M.B.B.S.",Drama,8.9
+Nargis,Lead,Female,51,"Mother India, Awara, Shree 420",Drama,9.4
+Madhubala,Lead,Female,36,"Mughal-e-Azam, Chalti Ka Naam Gaadi, Howrah Bridge",Romance,9.6
+Meena Kumari,Lead,Female,39,"Pakeezah, Sahib Bibi Aur Ghulam, Baiju Bawra",Tragedy,9.5
+Waheeda Rehman,Lead,Female,87,"Guide, Pyaasa, Kaagaz Ke Phool",Drama,9.3
+Sushant Singh Rajput,Lead,Male,34,"M.S. Dhoni: The Untold Story, Chhichhore, Kai Po Che!",Biopic,9.1
+Tiger Shroff,Lead,Male,35,"Baaghi, War, Heropanti",Action,8.2
+Disha Patani,Lead,Female,32,"M.S. Dhoni: The Untold Story, Baaghi 2, Malang",Action,8
+Sara Ali Khan,Lead,Female,29,"Kedarnath, Simmba, Atrangi Re",Romance,8.3
+Janhvi Kapoor,Lead,Female,28,"Dhadak, Gunjan Saxena: The Kargil Girl",Biopic,8.1
+Ishaan Khatter,Lead,Male,29,"Dhadak, Beyond the Clouds, A Suitable Boy",Drama,8.4
+Dulquer Salmaan,Lead,Male,38,"Karwaan, The Zoya Factor, Sita Ramam",Romance,8.9
+Mrunal Thakur,Lead,Female,32,"Super 30, Sita Ramam, Jersey",Drama,8.7
+Sanya Malhotra,Lead,Female,33,"Dangal, Pagglait, Badhaai Ho",Comedy,8.8
+Radhika Apte,Lead,Female,39,"Andhadhun, Pad Man, Sacred Games",Thriller,8.9
+Richa Chadha,Lead,Female,38,"Gangs of Wasseypur, Masaan, Fukrey",Crime,8.7
+Ali Fazal,Lead,Male,38,"Mirzapur, Fukrey, Victoria & Abdul",Crime,8.6
+Konkona Sen Sharma,Lead,Female,45,"Wake Up Sid, Lipstick Under My Burkha, Talvar",Drama,9.1
+Rahul Bose,Lead,Male,57,"Mr. and Mrs. Iyer, Chameli, Pyaar Ke Side Effects",Drama,8.5
+Jimmy Sheirgill,Supporting,Male,54,"Tanu Weds Manu, A Wednesday!, Mohabbatein",Thriller,8.6
+Randeep Hooda,Lead,Male,48,"Sarbjit, Highway, Laal Rang",Biopic,8.8
+Emraan Hashmi,Lead,Male,46,"Murder, Jannat, Awarapan",Thriller,8.2
+Abhay Deol,Lead,Male,49,"Dev.D, Zindagi Na Milegi Dobara, Oye Lucky! Lucky Oye!",Comedy,8.8
+Kalki Koechlin,Supporting,Female,41,"Dev.D, Yeh Jawaani Hai Deewani, Margarita with a Straw",Drama,8.9
+Soha Ali Khan,Supporting,Female,46,"Rang De Basanti, Tum Mile, 99",Drama,8.3
+Kunal Khemu,Lead,Male,42,"Go Goa Gone, Golmaal Again, Kalyug",Comedy,8.4
+Sharman Joshi,Supporting,Male,46,"3 Idiots, Rang De Basanti, Golmaal",Comedy,8.7
+Aditya Roy Kapur,Lead,Male,39,"Aashiqui 2, Yeh Jawaani Hai Deewani, Ludo",Romance,8.4
+Shraddha Kapoor,Lead,Female,38,"Aashiqui 2, Stree, Chhichhore",Romance,8.5
+Parineeti Chopra,Lead,Female,36,"Ishaqzaade, Hasee Toh Phasee, Kesari",Romance,8.2
+Arjun Kapoor,Lead,Male,39,"Ishaqzaade, 2 States, Ki & Ka",Action,7.9
+Sushmita Sen,Lead,Female,49,"Main Hoon Na, Biwi No.1, Aarya",Action,8.7
+Lara Dutta,Supporting,Female,47,"Andaaz, No Entry, Don 2",Comedy,8.3
+Dia Mirza,Supporting,Female,43,"Rehnaa Hai Terre Dil Mein, Sanju, Thappad",Romance,8.2
+R. Madhavan,Lead,Male,55,"3 Idiots, Tanu Weds Manu, Rehnaa Hai Terre Dil Mein",Romance,8.9
+Siddhant Chaturvedi,Supporting,Male,32,"Gully Boy, Gehraiyaan",Drama,8.6
+Vijay Varma,Supporting,Male,39,"Gully Boy, Darlings, Mirzapur",Crime,8.8
+Amol Palekar,Lead,Male,80,"Gol Maal, Chitchor, Chhoti Si Baat",Comedy,9.2
+Amrish Puri,Villain,Male,73,"Mr. India, Dilwale Dulhania Le Jayenge, Gadar",Action,9.4
+Tabu,Lead,Female,53,"Maqbool, Andhadhun, Drishyam",Thriller,9.4
+Riteish Deshmukh,Lead,Male,46,"Housefull series, Ek Villain, Masti",Comedy,8.4
+Boman Irani,Supporting,Male,65,"3 Idiots, Munna Bhai M.B.B.S., Lage Raho Munna Bhai",Comedy,9.1
+Suniel Shetty,Lead,Male,63,"Dhadkan, Hera Pheri, Border",Action,8.5
+Karisma Kapoor,Lead,Female,51,"Raja Hindustani, Dil To Pagal Hai, Fiza",Romance,8.7
+Akshaye Khanna,Lead,Male,50,"Dil Chahta Hai, Taal, Drishyam 2",Thriller,8.8
+Raveena Tandon,Lead,Female,50,"Mohra, Andaz Apna Apna, K.G.F: Chapter 2",Action,8.6
+Urmila Matondkar,Lead,Female,51,"Rangeela, Satya, Bhoot",Thriller,8.8
+Bobby Deol,Lead,Male,56,"Gupt, Soldier, Barsaat",Action,8.3
+Manisha Koirala,Lead,Female,54,"Dil Se.., Bombay, 1942: A Love Story",Drama,8.9
+Rajesh Khanna,Lead,Male,69,"Anand, Aradhana, Amar Prem",Romance,9.6
+Vinod Khanna,Lead,Male,70,"Amar Akbar Anthony, Qurbani, Dayavan",Action,9
+Sharmila Tagore,Lead,Female,80,"Aradhana, Amar Prem, Kashmir Ki Kali",Romance,9.2
+Jeetendra,Lead,Male,83,"Himmatwala, Tohfa, Farz",Drama,8.5
+Mithun Chakraborty,Lead,Male,75,"Disco Dancer, Agnipath, The Kashmir Files",Action,8.7
+Jackie Shroff,Lead,Male,68,"Hero, Ram Lakhan, Parinda",Action,8.6
+Kay Kay Menon,Lead,Male,58,"Haider, Black Friday, Shaurya",Crime,9.3
+Shefali Shah,Lead,Female,52,"Delhi Crime, Darlings, Dil Dhadakne Do",Drama,9.2
+Neena Gupta,Supporting,Female,65,"Badhaai Ho, Panchayat, Masaba Masaba",Comedy,9
+Gajraj Rao,Supporting,Male,54,"Badhaai Ho, Shubh Mangal Zyada Saavdhan",Comedy,9
+Jaideep Ahlawat,Supporting,Male,45,"Paatal Lok, Raazi, Gangs of Wasseypur",Crime,9.1
+Kartik Aaryan,Lead,Male,34,"Sonu Ke Titu Ki Sweety, Pyaar Ka Punchnama",Comedy,8.5
+Bhumi Pednekar,Lead,Female,35,"Dum Laga Ke Haisha, Toilet: Ek Prem Katha",Drama,8.7
+Yami Gautam,Lead,Female,36,"Vicky Donor, Uri: The Surgical Strike, Bala",Drama,8.6
+Vinay Pathak,Supporting,Male,56,"Bheja Fry, Khosla Ka Ghosla, Rab Ne Bana Di Jodi",Comedy,8.8
+Saurabh Shukla,Supporting,Male,62,"Satya, Jolly LLB, Barfi!",Comedy,9.1
+Seema Pahwa,Supporting,Female,63,"Bareilly Ki Barfi, Shubh Mangal Saavdhan",Comedy,8.9
+Kirron Kher,Supporting,Female,72,"Devdas, Rang De Basanti, Dostana",Drama,8.7
+Gulshan Grover,Villain,Male,69,"Mohra, Ram Lakhan, Sooryavanshi",Action,8.4
+Shakti Kapoor,Villain,Male,72,"Raja Babu, Andaz Apna Apna, Tohfa",Comedy,8.2
+Kader Khan,Supporting,Male,81,"Coolie No. 1, Dulhe Raja, Baap Numbri Beta Dus Numbri",Comedy,9.2
+Johnny Lever,Supporting,Male,67,"Baazigar, Judaai, Golmaal 3",Comedy,8.9
+Sanjeev Kumar,Lead,Male,47,"Sholay, Aandhi, Angoor",Drama,9.5
+Pran,Villain,Male,93,"Zanjeer, Don, Amar Akbar Anthony",Action,9.4
+Raaj Kumar,Lead,Male,69,"Pakeezah, Waqt, Tirangaa",Drama,9.1
+Feroz Khan,Lead,Male,69,"Qurbani, Dharmatma, Welcome",Action,8.8
+Shatrughan Sinha,Lead,Male,79,"Kalicharan, Kaala Patthar, Dostana",Action,8.6
+Dimple Kapadia,Lead,Female,68,"Bobby, Saagar, Tenet",Romance,8.9
+Zeenat Aman,Lead,Female,73,"Don, Satyam Shivam Sundaram, Qurbani",Drama,8.8
+Parveen Babi,Lead,Female,50,"Deewaar, Amar Akbar Anthony, Namak Halaal",Drama,8.9
+Smita Patil,Lead,Female,31,"Manthan, Bhumika, Arth",Drama,9.4
+Deepti Naval,Lead,Female,73,"Chashme Buddoor, Saath Saath, Angoor",Comedy,9
+Farooq Sheikh,Lead,Male,65,"Chashme Buddoor, Saath Saath, Garam Hawa",Comedy,9.1
+Amrita Singh,Lead,Female,67,"Betaab, Mard, 2 States",Drama,8.5
+Divya Dutta,Supporting,Female,47,"Bhaag Milkha Bhaag, Veer-Zaara, Delhi-6",Drama,8.9
+Adil Hussain,Supporting,Male,61,"English Vinglish, Life of Pi, Mukti Bhawan",Drama,9.2
+Tisca Chopra,Supporting,Female,51,"Taare Zameen Par, Rahasya, Qissa",Drama,8.7
+Ronit Roy,Supporting,Male,59,"Udaan, 2 States, Kaabil",Drama,8.8
+Ram Kapoor,Supporting,Male,51,"Udaan, Student of the Year, Baar Baar Dekho",Drama,8.5
+Atul Kulkarni,Supporting,Male,59,"Rang De Basanti, Hey Ram, Chandni Bar",Drama,9
+Ashutosh Rana,Villain,Male,57,"Sangharsh, Dushman, Simmba",Thriller,8.9
+Mukesh Tiwari,Supporting,Male,55,"Golmaal series, China Gate, Gangaajal",Comedy,8.4
+Vijay Raaz,Supporting,Male,62,"Monsoon Wedding, Delhi Belly, Gully Boy",Comedy,9
+Deepak Dobriyal,Supporting,Male,49,"Tanu Weds Manu series, Hindi Medium",Comedy,8.9
+Mohammed Zeeshan Ayyub,Supporting,Male,42,"Raanjhanaa, Tanu Weds Manu Returns, Article 15",Drama,8.8
+Kumud Mishra,Supporting,Male,56,"Rockstar, Sultan, Article 15",Drama,8.9
+Ratna Pathak Shah,Supporting,Female,68,"Kapoor & Sons, Jaane Tu... Ya Jaane Na, Sarabhai vs Sarabhai",Comedy,9.1
+Supriya Pathak,Supporting,Female,64,"Goliyon Ki Raasleela Ram-Leela, Wake Up Sid",Comedy,9
+Huma Qureshi,Lead,Female,38,"Gangs of Wasseypur, Badlapur, Maharani",Crime,8.6
+Swara Bhaskar,Supporting,Female,37,"Tanu Weds Manu, Raanjhanaa, Nil Battey Sannata",Drama,8.5
+Nimrat Kaur,Lead,Female,43,"The Lunchbox, Airlift, Dasvi",Drama,8.9
+Radhika Madan,Lead,Female,30,"Mard Ko Dard Nahi Hota, Angrezi Medium, Pataakha",Comedy,8.6
+Fatima Sana Shaikh,Lead,Female,33,"Dangal, Ludo, Thugs of Hindostan",Drama,8.4
+Zaira Wasim,Lead,Female,24,"Dangal, Secret Superstar, The Sky Is Pink",Biopic,9
+Tripti Dimri,Lead,Female,31,"Laila Majnu, Bulbbul, Qala",Fantasy,8.8
+Sobhita Dhulipala,Lead,Female,33,"Made in Heaven, Raman Raghav 2.0",Thriller,8.7
+Vijay Sethupathi,Lead,Male,47,"Vikram Vedha, Super Deluxe, Jawan",Action,9.3
+Dhanush,Lead,Male,42,"Raanjhanaa, Atrangi Re, Asuran",Drama,9.1
+Prithviraj Sukumaran,Lead,Male,42,"Aiyyaa, Aurangzeb, Salaar",Action,8.8
+Asrani,Supporting,Male,84,"Sholay, Chupke Chupke, Dhamaal",Comedy,8.7
+Jagdeep,Supporting,Male,81,"Sholay, Andaz Apna Apna, Purana Mandir",Comedy,8.5
+Annu Kapoor,Supporting,Male,69,"Vicky Donor, Jolly LLB 2, Mr. India",Comedy,8.8
+Satish Shah,Supporting,Male,73,"Jaane Bhi Do Yaaro, Main Hoon Na, Sarabhai vs Sarabhai",Comedy,8.9
+Satish Kaushik,Supporting,Male,67,"Mr. India, Deewana Mastana, Udta Punjab",Comedy,8.8
+Anang Desai,Supporting,Male,72,"Khichdi: The Movie, Rustom",Comedy,8.5
+Vivek Oberoi,Lead,Male,48,"Company, Saathiya, Shootout at Lokhandwala",Crime,8.2
+Neil Nitin Mukesh,Lead,Male,43,"Johnny Gaddaar, New York, 7 Khoon Maaf",Thriller,8.1
+Imran Khan,Lead,Male,42,"Jaane Tu... Ya Jaane Na, Delhi Belly, Mere Brother Ki Dulhan",Romance,8.3
+Kunal Kapoor,Supporting,Male,47,"Rang De Basanti, Don 2, Luv Shuv Tey Chicken Khurana",Drama,8.5
+Sharad Kelkar,Supporting,Male,48,"Tanhaji, Laxmii, Goliyon Ki Raasleela Ram-Leela",Action,8.7
+Sonu Sood,Supporting,Male,51,"Dabangg, Simmba, Jodhaa Akbar",Action,8.6
+Prakash Raj,Villain,Male,60,"Singham, Wanted, Dabangg 2",Action,8.9
+Rana Daggubati,Villain,Male,40,"Baahubali series, The Ghazi Attack, Baby",Action,8.9
+Aftab Shivdasani,Lead,Male,46,"Masti, Kasoor, Hungama",Comedy,7.9
+Dino Morea,Lead,Male,49,"Raaz, Aksar, The Empire",Thriller,8
+Zayed Khan,Lead,Male,44,"Main Hoon Na, Dus, Blue",Action,7.8
+Fardeen Khan,Lead,Male,51,"No Entry, Fida, Heyy Babyy",Comedy,7.9
+Tusshar Kapoor,Lead,Male,48,"Golmaal series, The Dirty Picture, Kya Kool Hain Hum",Comedy,7.7
+Ameesha Patel,Lead,Female,49,"Kaho Naa... Pyaar Hai, Gadar: Ek Prem Katha",Romance,8.1
+Gracy Singh,Lead,Female,44,"Lagaan, Munna Bhai M.B.B.S.",Drama,8.6
+Mahima Chaudhry,Lead,Female,51,"Pardes, Dhadkan, Dil Hai Tumhaara",Romance,8.3
+Pooja Bhatt,Lead,Female,53,"Dil Hai Ke Manta Nahin, Sadak, Bombay Begums",Romance,8.5
+Sonali Bendre,Lead,Female,50,"Sarfarosh, Hum Saath-Saath Hain, Diljale",Romance,8.6
+Guru Dutt,Lead,Male,39,"Pyaasa, Kaagaz Ke Phool, Sahib Bibi Aur Ghulam",Drama,9.7
+Ashok Kumar,Lead,Male,86,"Achhut Kanya, Kismet, Mahal",Drama,9.5
+Kishore Kumar,Lead,Male,58,"Chalti Ka Naam Gaadi, Padosan, Half Ticket",Comedy,9.3
+Diljit Dosanjh,Lead,Male,41,"Udta Punjab, Good Newwz, Soorma",Comedy,8.7
+Jim Sarbh,Supporting,Male,37,"Neerja, Padmaavat, Sanju",Drama,8.9
+Chitrangada Singh,Lead,Female,49,"Hazaaron Khwaishein Aisi, Inkaar",Drama,8.6
+Sunny Deol,Lead,Male,68,"Gadar, Ghayal, Border",Action,8.8
+Vikrant Massey,Lead,Male,38,"12th Fail, A Death in the Gunj, Haseen Dillruba",Drama,9.1
+Sanjay Mishra,Supporting,Male,62,"Ankhon Dekhi, Masaan, Kaamyaab",Comedy,9.2
+Rasika Dugal,Supporting,Female,40,"Mirzapur, Manto, Hamid",Drama,8.9
+Gulshan Devaiah,Lead,Male,47,"Hunterrr, Shaitan, Mard Ko Dard Nahi Hota",Thriller,8.8
+Shreyas Talpade,Lead,Male,49,"Iqbal, Om Shanti Om, Golmaal Returns",Comedy,8.6
+Rajpal Yadav,Supporting,Male,54,"Hungama, Bhool Bhulaiyaa, Chup Chup Ke",Comedy,8.8
+Danny Denzongpa,Villain,Male,77,"Agnipath, Ghatak, Enthiran",Action,9
+Prem Chopra,Villain,Male,89,"Bobby, Kati Patang, Raja Babu",Drama,8.9
+Nutan,Lead,Female,54,"Bandini, Sujata, Milan",Drama,9.6
+Balraj Sahni,Lead,Male,59,"Do Bigha Zamin, Kabuliwala, Garam Hawa",Drama,9.7
+Sadhana Shivdasani,Lead,Female,74,"Woh Kaun Thi?, Mera Saaya, Waqt",Mystery,9.3
+Manoj Pahwa,Supporting,Male,62,"Mulk, Article 15, Ankhon Dekhi",Comedy,8.8
+Tinnu Anand,Supporting,Male,80,"Agnipath, Pushpak, Dabangg",Action,8.6
+Mohnish Bahl,Supporting,Male,64,"Hum Aapke Hain Koun..!, Hum Saath-Saath Hain",Family,8.4
+Reema Lagoo,Supporting,Female,59,"Hum Aapke Hain Koun..!, Vaastav, Kal Ho Naa Ho",Drama,9
+Farida Jalal,Supporting,Female,76,"Dilwale Dulhania Le Jayenge, Kuch Kuch Hota Hai",Family,8.9
+Himani Shivpuri,Supporting,Female,64,"Dilwale Dulhania Le Jayenge, Kuch Kuch Hota Hai",Comedy,8.5
+Alok Nath,Supporting,Male,69,"Hum Aapke Hain Koun..!, Maine Pyar Kiya",Family,8.2
+Ayesha Jhulka,Lead,Female,53,"Jo Jeeta Wohi Sikandar, Khiladi, Dalaal",Romance,8.3
+Mamta Kulkarni,Lead,Female,53,"Karan Arjun, Sabse Bada Khiladi",Action,8
+Sonali Kulkarni,Supporting,Female,50,"Dil Chahta Hai, Mission Kashmir, Singham",Drama,8.7
+Sayaji Shinde,Villain,Male,66,"Shool, Kurukshetra, Sarkaar",Action,8.6
+Mukesh Rishi,Villain,Male,69,"Gunda, Sarfarosh, Judwaa",Action,8.5
+Ashish Vidyarthi,Villain,Male,63,"Drohkaal, Is Raat Ki Subah Nahin, Bichhoo",Crime,8.8
+Milind Soman,Supporting,Male,59,"16 December, Bheja Fry, Bajirao Mastani",Action,8.4
+Lisa Ray,Lead,Female,53,"Water, Kasoor, Ishq Forever",Drama,8.5
+Nandita Das,Lead,Female,55,"Fire, Earth, Firaaq",Drama,9.2
+Purab Kohli,Supporting,Male,46,"Rock On!!, Airlift, My Brother... Nikhil",Drama,8.6
+Chandrachur Singh,Lead,Male,57,"Maachis, Josh, Kya Kehna",Romance,8.2
+Arbaaz Khan,Supporting,Male,58,"Dabangg, Pyaar Kiya To Darna Kya",Action,7.8
+Sohail Khan,Lead,Male,54,"Maine Dil Tujhko Diya, Pyaar Kiya To Darna Kya",Action,7.6
+Sanjay Kapoor,Lead,Male,62,"Raja, Sirf Tum, Mission Mangal",Romance,7.9
+Angad Bedi,Supporting,Male,42,"Pink, Tiger Zinda Hai, Soorma",Drama,8.3
+Neha Dhupia,Supporting,Female,45,"Chup Chup Ke, Singh Is Kinng, Tumhari Sulu",Comedy,8.1
+Pulkit Samrat,Lead,Male,41,"Fukrey, Sanam Re, Veerey Ki Wedding",Comedy,8
+Ali Asgar,Supporting,Male,54,"The Kapil Sharma Show, Jeena Sirf Merre Liye",Comedy,8.2
+Kiku Sharda,Supporting,Male,50,"The Kapil Sharma Show, Akbar Birbal",Comedy,8.3
+Sunil Grover,Supporting,Male,48,"Gabbar Is Back, Bharat, Gutthi",Comedy,8.9
+Chunky Panday,Supporting,Male,62,"Tezaab, Housefull series, Aankhen",Comedy,8.1
+Sharat Saxena,Villain,Male,74,"Ghulam, Krrish, Bajrangi Bhaijaan",Action,8.6
+Dalip Tahil,Villain,Male,72,"Baazigar, Qayamat Se Qayamat Tak, Ra.One",Action,8.5
+Anjana Sukhani,Supporting,Female,46,"Golmaal Returns, Salaam-e-Ishq",Comedy,7.9
+Celina Jaitly,Lead,Female,43,"No Entry, Janasheen, Golmaal Returns",Comedy,7.8
+Mugdha Godse,Lead,Female,39,"Fashion, Jail, All the Best",Drama,8
+Koena Mitra,Lead,Female,41,"Musafir, Apna Sapna Money Money",Thriller,7.7
+Tanushree Dutta,Lead,Female,41,"Aashiq Banaya Aapne, Chocolate",Thriller,7.9
+Esha Deol,Lead,Female,43,"Dhoom, Yuva, Kaal",Action,7.8
+Faraaz Khan,Lead,Male,46,"Fareb, Mehndi",Thriller,8
+Shiney Ahuja,Lead,Male,50,"Gangster, Woh Lamhe, Hazaaron Khwaishein Aisi",Drama,8.2
+Prateik Babbar,Lead,Male,38,"Jaane Tu... Ya Jaane Na, Dhobi Ghat",Drama,8.3
+Prithviraj Kapoor,Lead,Male,65,"Mughal-e-Azam, Awara, Sikandar",Historical,9.6
+Shammi Kapoor,Lead,Male,79,"Junglee, Teesri Manzil, An Evening in Paris",Romance,9.4
+Shashi Kapoor,Lead,Male,79,"Deewaar, Satyam Shivam Sundaram, Junoon",Romance,9.3
+Geeta Bali,Lead,Female,35,"Baazi, Albela, Jaal",Drama,9.2
+Suraiya,Lead,Female,75,"Anmol Ghadi, Dillagi, Dastan",Musical,9.3
+Vyjayanthimala,Lead,Female,91,"Devdas, Naya Daur, Sangam",Dance,9.4
+Helen,Dancer,Female,86,"Sholay, Don, Howrah Bridge",Musical,9.1
+Bindu,Villain,Female,82,"Kati Patang, Zanjeer, Om Shanti Om",Drama,8.8
+Ajit Khan,Villain,Male,76,"Zanjeer, Yaadon Ki Baaraat, Kalicharan",Action,9.2
+Amjad Khan,Villain,Male,51,"Sholay, Muqaddar Ka Sikandar",Action,9.5
+Mac Mohan,Supporting,Male,72,"Sholay, Don, Satte Pe Satta",Action,8.7
+Viju Khote,Supporting,Male,77,"Sholay, Andaz Apna Apna, Golmaal 3",Comedy,8.8
+A. K. Hangal,Supporting,Male,98,"Sholay, Shaukeen, Lagaan",Drama,9.1
+Utpal Dutt,Supporting,Male,64,"Gol Maal, Naram Garam, Shaukeen",Comedy,9.4
+David Abraham,Supporting,Male,73,"Boot Polish, Chupke Chupke, Baton Baton Mein",Comedy,9
+Om Shivpuri,Supporting,Male,54,"Don, Disco Dancer, Namak Halaal",Action,8.7
+Iftekhar,Supporting,Male,75,"Deewaar, Don, Zanjeer",Crime,8.9
+Jagdish Raj,Supporting,Male,85,"Deewaar, Don, Silsila",Crime,8.6
+Nirupa Roy,Supporting,Female,72,"Deewaar, Amar Akbar Anthony",Drama,9
+Lalita Pawar,Supporting,Female,71,"Shri 420, Anand, Anari",Drama,9.1
+Achala Sachdev,Supporting,Female,91,"Dilwale Dulhania Le Jayenge, Waqt",Family,8.8
+Sulochana Latkar,Supporting,Female,94,"Sujata, Saraswatichandra, Aaye Din Bahar Ke",Drama,8.9
+Vidya Sinha,Lead,Female,71,"Rajnigandha, Chhoti Si Baat, Pati Patni Aur Woh",Romance,9
+Moushumi Chatterjee,Lead,Female,76,"Roti Kapada Aur Makaan, Angoor",Drama,8.8
+Reena Roy,Lead,Female,67,"Nagin, Kalicharan, Aasha",Drama,8.7
+Rakhee Gulzar,Lead,Female,78,"Karan Arjun, Sharmilee, Daag",Drama,9
+Padmini Kolhapure,Lead,Female,59,"Prem Rog, Satyam Shivam Sundaram",Romance,8.6
+Mandakini,Lead,Female,61,"Ram Teri Ganga Maili, Loha",Romance,8.2
+Kimi Katkar,Lead,Female,59,"Hum, Adventures of Tarzan",Action,8
+Shilpa Shirodkar,Lead,Female,55,"Hum, Gopi Kishan, Aankhen",Action,8.1
+Ayesha Takia,Lead,Female,39,"Wanted, Dor, Socha Na Tha",Romance,8.3
+Genelia D'Souza,Lead,Female,38,"Jaane Tu... Ya Jaane Na, Force",Romance,8.5
+Asin Thottumkal,Lead,Female,39,"Ghajini, Ready, Housefull 2",Action,8.4
+Sameera Reddy,Lead,Female,46,"Musafir, Race, De Dana Dan",Thriller,8
+Namrata Shirodkar,Lead,Female,53,"Vaastav, Pukar, Astitva",Crime,8.5
+Pooja Batra,Lead,Female,51,"Virasat, Haseena Maan Jaayegi",Drama,8.2
+Upen Patel,Lead,Male,43,"36 China Town, Namastey London",Thriller,7.6
+Harman Baweja,Lead,Male,44,"Love Story 2050, What's Your Raashee?",Sci-Fi,7.2
+Jackky Bhagnani,Lead,Male,40,"F.A.L.T.U, Youngistaan",Comedy,7.4
+Adhyayan Suman,Lead,Male,37,"Raaz – The Mystery Continues, Jashnn",Thriller,7.5
+Ruslaan Mumtaz,Lead,Male,43,"MP3: Mera Pehla Pehla Pyaar, Teree Sang",Romance,7.8
+Vivaan Shah,Supporting,Male,35,"7 Khoon Maaf, Happy New Year",Thriller,8.1
+Tahir Raj Bhasin,Villain,Male,38,"Mardaani, Force 2, Chhichhore",Action,8.7
+Priyanshu Chatterjee,Lead,Male,52,"Tum Bin, Dil Ka Rishta",Romance,8.3
+Rakul Preet Singh,Lead,Female,34,"De De Pyaar De, Yaariyan, Doctor G",Comedy,8.2
+Paoli Dam,Lead,Female,44,"Hate Story, Bulbbul",Thriller,8.5
+Chitrangada Singh,Lead,Female,49,"Hazaaron Khwaishein Aisi, Inkaar",Drama,8.6
+R. S. Manohar,Villain,Male,77,"Iru Vallavargal, Vallavan Oruvan",Action,8.9
+Aparshakti Khurana,Supporting,Male,37,"Dangal, Stree, Luka Chuppi",Comedy,8.7
+Divyenndu Sharma,Supporting,Male,42,"Pyaar Ka Punchnama, Mirzapur, Toilet: Ek Prem Katha",Comedy,8.8
+Aditi Rao Hydari,Lead,Female,38,"Padmaavat, Wazir, Delhi-6",Drama,8.5
+Vaani Kapoor,Lead,Female,36,"Shuddh Desi Romance, War, Chandigarh Kare Aashiqui",Romance,8.2
+Nushrat Bharucha,Lead,Female,40,"Pyaar Ka Punchnama series, Sonu Ke Titu Ki Sweety",Comedy,8.3
+Ileana D'Cruz,Lead,Female,38,"Barfi!, Rustom, Main Tera Hero",Romance,8.4
+Diana Penty,Lead,Female,39,"Cocktail, Parmanu: The Story of Pokhran",Drama,8.3
+Patralekha,Lead,Female,36,"CityLights, Love Games",Drama,8.5
+Asha Parekh,Lead,Female,82,"Kati Patang, Teesri Manzil, Love in Tokyo",Musical,9.3
+Mala Sinha,Lead,Female,88,"Pyaasa, Dhool Ka Phool, Aankhen",Drama,9.2
+Tanuja,Lead,Female,82,"Haathi Mere Saathi, Jewel Thief",Drama,9
+Joy Mukherjee,Lead,Male,73,"Love in Simla, Phir Wohi Dil Laya Hoon",Romance,8.9
+Biswajeet Chatterjee,Lead,Male,88,"Bees Saal Baad, Kohraa",Mystery,8.8
+Vinod Mehra,Lead,Male,45,"Anurodh, Ghar, Bemisal",Drama,8.9
+Navin Nischol,Lead,Male,65,"Sawan Bhadon, Victoria No. 203",Romance,8.6
+Parikshit Sahni,Supporting,Male,81,"Lage Raho Munna Bhai, 3 Idiots, PK",Drama,8.7
+Ranjeet,Villain,Male,83,"Amar Akbar Anthony, Laawaris, Muqaddar Ka Sikandar",Action,8.8
+Raza Murad,Villain,Male,74,"Ram Lakhan, Tridev, Mohra",Action,8.6
+Kiran Kumar,Villain,Male,72,"Tezaab, Khuda Gawah",Action,8.5
+Rohini Hattangadi,Supporting,Female,74,"Agnipath, Gandhi, Saaransh",Drama,9.1
+Poonam Dhillon,Lead,Female,63,"Noorie, Sohni Mahiwal, Trishul",Romance,8.4
+Tina Ambani,Lead,Female,68,"Karz, Rocky, Baton Baton Mein",Romance,8.5
+Kumar Gaurav,Lead,Male,65,"Love Story, Naam",Romance,8.3
+Bhagyashree,Lead,Female,56,Maine Pyar Kiya,Romance,8.2
+Anu Aggarwal,Lead,Female,56,"Aashiqui, Khal-Naa-Yikaa",Romance,8
+Deepak Tijori,Supporting,Male,64,"Jo Jeeta Wohi Sikandar, Kabhi Haan Kabhi Naa",Romance,8.1
+Rahul Roy,Lead,Male,57,"Aashiqui, Junoon",Romance,7.9
+Makarand Deshpande,Supporting,Male,59,"Swades, Satya, Makdee",Drama,8.9
+Zakir Hussain,Supporting,Male,55,"Johnny Gaddaar, Sarkar, Andhadhun",Crime,8.8
+Rajesh Sharma,Supporting,Male,54,"No One Killed Jessica, Toilet: Ek Prem Katha",Drama,8.7
+Neeraj Kabi,Supporting,Male,57,"Talvar, Ship of Theseus, Paatal Lok",Thriller,9.2
+Swanand Kirkire,Supporting,Male,55,"Crazy Cukkad Family, Chumbak",Drama,8.8
+Tiku Talsania,Supporting,Male,71,"Ishq, Coolie No. 1, Andaz Apna Apna",Comedy,8.6
+Rakesh Bedi,Supporting,Male,70,"Chashme Buddoor, Shrimaan Shrimati",Comedy,8.5
+Deven Verma,Supporting,Male,78,"Angoor, Gol Maal, Andaz Apna Apna",Comedy,9.1
+Dinesh Hingoo,Supporting,Male,85,"Baazigar, Hera Pheri, No Entry",Comedy,8.4
+Manisha Saxena,Supporting,Female,33,"Rishton Ka Manjha, Pehredaar Piya Ki",Drama,8
+Mahesh Anand,Villain,Male,57,"Shahenshah, Thanedaar, Vishwatma",Action,8.2
+Bob Christo,Villain,Male,67,"Mr. India, Gumrah, Agnipath",Action,8.3
+Gavin Packard,Villain,Male,48,"Sadak, Mohra, Karan Arjun",Action,8.1
+Abhimanyu Dassani,Lead,Male,35,"Mard Ko Dard Nahi Hota, Meenakshi Sundareshwar",Action,8.5
+Meezaan Jaffrey,Lead,Male,30,"Malaal, Hungama 2",Romance,7.9
+Sharvari Wagh,Lead,Female,29,"Bunty Aur Babli 2, Munjya",Comedy,8.3
+Manushi Chhillar,Lead,Female,28,"Samrat Prithviraj, Bade Miyan Chote Miyan",Historical,8
+Ananya Panday,Lead,Female,26,"Student of the Year 2, Gehraiyaan",Romance,7.8
+Tara Sutaria,Lead,Female,29,"Student of the Year 2, Tadap, Marjaavaan",Romance,8
+Siddharth,Lead,Male,46,"Rang De Basanti, Chashme Baddoor",Drama,8.8
+Swastika Mukherjee,Supporting,Female,44,"Paatal Lok, Detective Byomkesh Bakshy!",Thriller,8.9
+Ranvir Shorey,Supporting,Male,53,"Khosla Ka Ghosla, Bheja Fry, Titli",Comedy,8.7
+Gulshan Mia,Supporting,Male,67,"Omkara, Raajneeti, Aarakshan",Drama,8.6
+Sayani Gupta,Supporting,Female,39,"Article 15, Jolly LLB 2, Margarita with a Straw",Drama,8.8
+Kirti Kulhari,Lead,Female,40,"Pink, Uri: The Surgical Strike, Mission Mangal",Thriller,8.7
+Angira Dhar,Lead,Female,37,"Love per Square Foot, Commando 3",Romance,8.4
+Maanvi Gagroo,Supporting,Female,39,"Shubh Mangal Zyada Saavdhan, Ujda Chaman",Comedy,8.5
+Shweta Tripathi,Lead,Female,40,"Masaan, Mirzapur, Haraamkhor",Drama,9
+Shriya Pilgaonkar,Supporting,Female,36,"Fan, Mirzapur, Taaza Khabar",Thriller,8.7
+Mithila Palkar,Lead,Female,32,"Karwaan, Chopsticks, Little Things",Comedy,8.6
+Aahana Kumra,Supporting,Female,40,"Lipstick Under My Burkha, Khuda Haafiz",Drama,8.5
+Barun Sobti,Lead,Male,41,"Tu Hai Mera Sunday, Asur",Thriller,8.9
+Iqbal Khan,Lead,Male,44,"Fun2shh, Unforgettable",Romance,8
+Karan Singh Grover,Lead,Male,43,"Alone, Hate Story 3",Thriller,7.9
+Gurmeet Choudhary,Lead,Male,41,"Khamoshiyan, Wajah Tum Ho",Romance,7.8
+Jay Bhanushali,Lead,Male,40,"Hate Story 2, Ek Paheli Leela",Thriller,7.7
+Rajeev Khandelwal,Lead,Male,50,"Aamir, Shaitan, Table No. 21",Thriller,8.8
+Aamna Sharif,Lead,Female,43,"Aloo Chaat, Ek Villain",Romance,8.1
+Surveen Chawla,Lead,Female,41,"Hate Story 2, Ugly, Parched",Thriller,8.5
+Sanjeeda Sheikh,Lead,Female,40,"Taish, Fighter",Action,8.3
+Mouni Roy,Lead,Female,40,"Gold, Brahm?stra: Part One – Shiva",Fantasy,8.2
+Hina Khan,Lead,Female,38,"Hacked, Lines",Thriller,8
+Jennifer Winget,Lead,Female,40,"Phir Se..., Code M",Romance,8.4
+Nia Sharma,Lead,Female,34,Twisted,Thriller,7.9
+Surbhi Jyoti,Lead,Female,37,Kya Meri Sonam Gupta Bewafa Hai?,Comedy,7.8
+Drashti Dhami,Lead,Female,40,The Empire,Historical,8.2
+Sanaya Irani,Lead,Female,42,"Fanaa, Ghost",Romance,8.1
+Shama Sikander,Lead,Female,44,"Mann, Bypass Road",Romance,7.7
+Roshni Chopra,Supporting,Female,44,"Phhir, Bhram",Thriller,7.6
+M. G. Ramachandran,Lead,Male,70,"Nadodi Mannan, Enga Veettu Pillai",Action,9.5
+Sivaji Ganesan,Lead,Male,72,"Veerapandiya Kattabomman, Parasakthi",Drama,9.6
+Gemini Ganesan,Lead,Male,84,"Miss Mary, Kalyana Parisu",Romance,9.2
+Savitri,Lead,Female,45,"Mayabazar, Missamma",Drama,9.7
+Anjali Devi,Lead,Female,86,"Lava Kusa, Suvarna Sundari",Mythological,9.3
+B. Saroja Devi,Lead,Female,86,"Paarthaal Pasi Theerum, Puthiya Paravai",Drama,9.1
+S. S. Rajendran,Lead,Male,85,"Parasakthi, Ratha Kanneer",Drama,9
+Jaishankar,Lead,Male,60,"Vallavan Oruvan, CID Shankar",Action,8.8
+Ravichandran,Lead,Male,61,"Adhey Kangal, Naan",Thriller,8.7
+A. V. M. Rajan,Lead,Male,89,"Pachai Vilakku, Karnan",Drama,8.6
+Srikanth,Supporting,Male,78,"Vennira Aadai, Thanga Pathakkam",Drama,8.5
+K. R. Vijaya,Lead,Female,76,"Thangappathakkam, Dheerga Sumangali",Drama,8.9
+Lakshmi,Lead,Female,72,"Julie, Sila Nerangalil Sila Manithargal",Drama,8.8
+Saritha,Lead,Female,65,"Thappu Thalangal, Aval Appadithan",Drama,9
+Sujatha,Lead,Female,55,"Avargal, Annakili",Drama,8.9
+Srikanth Iyengar,Supporting,Male,54,"DJ Tillu, Mad",Comedy,8.7
+Manorama,Supporting,Female,78,"Thillana Mohanambal, Anbe Vaa",Comedy,9.4
+Nagesh,Supporting,Male,75,"Server Sundaram, Ethir Neechal",Comedy,9.3
+Thengai Srinivasan,Supporting,Male,50,"Thillu Mullu, Kaakki Sattai",Comedy,9.1
+Suruli Rajan,Supporting,Male,42,"Murattu Kaalai, Kazhugu",Comedy,9
+V. K. Ramasamy,Supporting,Male,80,"Anbe Vaa, Minsara Kanavu",Comedy,8.9
+S. A. Ashokan,Villain,Male,52,"Adimaippenn, Ulagam Sutrum Valiban",Action,9.1
+M. N. Nambiar,Villain,Male,89,"Aayirathil Oruvan, Enga Veettu Pillai",Action,9.2
+P. S. Veerappa,Villain,Male,82,"Nadodi Mannan, Vanjikottai Valiban",Action,9
+,,,,,,

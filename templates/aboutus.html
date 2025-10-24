@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About — PlotBot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* ------------------ General & Body Styles ------------------ */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #550000;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* ------------------ Navbar Styles ------------------ */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 2rem;
+            background-color: #fff8f9;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #9B2226;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style-type: none;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: #9B2226;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .nav-links a:hover {
+            color: #c84347;
+        }
+
+        /* ------------------ Main Layout Grid ------------------ */
+        .wrap {
+            display: grid;
+            grid-template-columns: 1fr 420px; /* Two columns */
+            gap: 2rem;
+            max-width: 1500px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        /* General style for all cards */
+        .card {
+            background: #fff8f9;
+            color: #550000;
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        /* ------------------ Header Section ------------------ */
+        .brand-header {
+            grid-column: 1 / -1; /* Make header span both columns */
+            margin-bottom: 1rem;
+        }
+
+        .brand-header h1 {
+            color: #ffffff;
+            font-size: 2.5rem;
+        }
+
+        .brand-header p {
+            color: #f2dfe2;
+            font-size: 1.1rem;
+        }
+
+        /* ------------------ Left Column: About Card ------------------ */
+        .about-card h2, .about-card h3 {
+            color: #9B2226;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .about-card p {
+            line-height: 1.7;
+            margin: 0.5rem 0 1.5rem 0;
+            color : #550000;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .feature .icon {
+            background: rgba(155, 34, 38, 0.1);
+            color: #9B2226;
+            border-radius: 12px;
+            width: 50px;
+            height: 50px;
+            display: grid;
+            place-items: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature h4 {
+            color: #9B2226;
+        }
+
+        .feature p {
+            font-size: 0.9rem;
+            margin: 0.25rem 0 0 0;
+        }
+
+        /* ------------------ Right Column: Demo Card ------------------ */
+        .demo-card {
+            position: sticky;
+            top: 2rem; /* Makes the card stick when scrolling */
+            color : #550000;
+        }
+
+        .demo-card strong {
+            color: #9B2226;
+            font-size: 1.2rem;
+
+        }
+
+        .form input, .form select, .form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            color : #550000;
+        }
+
+        .form textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+
+        /* ------------------ Buttons ------------------ */
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            background-color: #9B2226;
+            color: #ffffff;
+            border: none;
+            border-radius: 12px;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #801c1f;
+        }
+
+        .btn.ghost {
+            background-color: transparent;
+            color: #9B2226;
+            border: 2px solid #9B2226;
+        }
+
+        .btn.ghost:hover {
+            background-color: rgba(155, 34, 38, 0.1);
+        }
+
+        /* ------------------ Footer ------------------ */
+        footer {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 2rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Responsive: stack columns on smaller screens */
+        @media (max-width: 980px) {
+            .wrap {
+                grid-template-columns: 1fr;
+            }
+            .demo-card {
+                position: static;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <a class="navbar-brand" href="#">🎥 PlotBot</a>
+    <ul class="nav-links">
+        <li><a href="{{ url_for('index') }}">Story Generation</a></li>
+        <li><a href="{{ url_for('history') }}">My Stories</a></li>
+        <li><a href="{{ url_for('feed') }}">Feed</a></li>
+        <li><a href="{{ url_for('aboutus') }}">About Us</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+    </ul>
+</nav>
+
+<main class="wrap">
+    <header class="brand-header">
+        <h1>PlotBot — About</h1>
+        <p>AI-assisted movie plot generator, cast & soundtrack suggester, with public remix threads.</p>
+    </header>
+
+    <section class="card about-card">
+        <h2>Our Mission</h2>
+        <p>Plotbot exists to help storytellers, filmmakers and fans quickly prototype ideas. Combine a few keywords, pick a genre and Plotbot will craft a plot skeleton, propose a cast, and suggest songs — then let the world remix and build on it.</p>
+
+        <div class="feature-grid">
+            <div class="feature">
+                <div class="icon">AI</div>
+                <div>
+                    <h4>AI-First Plot Drafts</h4>
+                    <p>Smart, readable plot outlines that respect genre conventions.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">🎭</div>
+                <div>
+                    <h4>Cast Suggestions</h4>
+                    <p>Auto-suggested actors to help you visualise your story.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">♫</div>
+                <div>
+                    <h4>Soundtrack Picks</h4>
+                    <p>Song suggestions to set the tone for scenes.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">🌐</div>
+                <div>
+                    <h4>Community Threads</h4>
+                    <p>Save publicly, view, and remix other people's plots.</p>
+                </div>
+            </div>
+        </div>
+
+        <h3>Design & Values</h3>
+        <p>We prioritise creativity and transparency. Every public save is tagged with a timestamp and author, and remix history is preserved so credit flows to original creators.</p>
+
+        <div class="button-group">
+            <a href="{{ url_for('index') }}" class="btn">Get Started</a>
+            <a href="#" class="btn ghost">Read Docs</a>
+        </div>
+    </section>
+
+    <aside class="card demo-card">
+        <strong>Try Plotbot</strong>
+        <p style="font-size: 0.9rem; margin-top: 0.5rem;">A live demo to showcase the features.</p>
+
+        <form class="form">
+            <input type="text" placeholder="Keywords: e.g., stolen gem, estranged siblings">
+            <select>
+                <option>Thriller</option>
+                <option>Romance</option>
+                <option>Action</option>
+            </select>
+            <textarea placeholder="Optional notes: tone, era, target runtime"></textarea>
+            <div class="button-group">
+                <button type="button" class="btn">Generate</button>
+                <button type="button" class="btn ghost">Save Public</button>
+            </div>
+        </form>
+    </aside>
+
+
+</main>
+
+</body>
+</html>
