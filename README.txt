@@ -17,7 +17,7 @@ Users can:
 🚀 Features
 
 | Feature                | Description                                                                                                               |
-| -----------------------| ---------------------------------------------------------------------------------------------------------------------     |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------     |
 | 🧩 Story Generation    | Generates stories using LLaMA 2 (local model).                                                                            |
 | 🎭 Cast Suggestion     | Suggests suitable actors based on extracted character traits using BERT NER + SentenceTransformer similarity.             |
 | 🔐 User Authentication | Login & Registration using Flask sessions and MongoDB.                                                                    |
@@ -94,3 +94,4 @@ Saves as a new story in MongoDB.
 | LLaMA-2-7B          | Generates Bollywood-style stories.                     |
 | BERT (NER)          | Extracts character names and entities from story text. |
 | SentenceTransformer | Encodes semantic meaning for cast matching.            |
+
