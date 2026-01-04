@@ -1,6 +1,6 @@
-*🎬 PlotBot — AI Story Generation & Cast Suggestion Platform
+**🎬 PlotBot — AI Story Generation & Cast Suggestion Platform**
 
-##🧠 Overview
+**🧠 Overview
 
 PlotBot is an AI-powered story generation web application built using Flask.
 It allows users to generate movie-like stories based on keywords and genres using a LLaMA-2 model, then automatically suggests the perfect cast using NLP models.
@@ -42,7 +42,7 @@ View personal story history or explore the global feed
 
 
 
-##📚 How It Works
+**📚 How It Works**
 
 🧠 1. Story Generation
 
@@ -73,7 +73,7 @@ Rewrite existing stories with a short prompt (e.g., “Make it a tragic ending�
 Saves as a new story in MongoDB
 
 
-## 🧠 AI Models Used
+**🧠 AI Models Used**
 
 | Model               | Purpose                                                |
 |--------------------|--------------------------------------------------------|
