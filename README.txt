@@ -95,3 +95,4 @@ Saves as a new story in MongoDB.
 | BERT (NER)          | Extracts character names and entities from story text. |
 | SentenceTransformer | Encodes semantic meaning for cast matching.            |
 
+
